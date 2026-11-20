@@ -11,9 +11,9 @@ Built in one afternoon at OpenAI's hardware hackathon in New York on
 November 19, 2026.
 
 <p align="center">
-  <a href="media/corner-walk-recap.mp4"><img src="media/recap-poster.jpg" width="280" alt="The CoreS3 held up in front of the Washington Square Arch at night"></a>
+  <a href="https://x.com/sriramkiron/status/2123829426177912918"><img src="media/recap-poster.jpg" width="280" alt="The CoreS3 held up in front of the Washington Square Arch at night. Opens the recap video on X."></a>
   <br>
-  <a href="media/corner-walk-recap.mp4">Watch the 48-second recap</a>
+  <a href="https://x.com/sriramkiron/status/2123829426177912918">Watch the recap on X</a>
 </p>
 
 ## The first walk
