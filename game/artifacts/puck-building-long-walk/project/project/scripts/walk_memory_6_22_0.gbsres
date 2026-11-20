@@ -1,0 +1,40 @@
+{
+  "_resourceType": "script",
+  "id": "0836d9a4-76f3-5f78-a6c3-eda0c50cd311",
+  "symbol": "walk_memory_6_22_0",
+  "name": "Walk memory 6,22 (1)",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "id": "e11acaf4-767c-5a3a-815c-1f559ca3b94f",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Camera\nCast-iron columns\nrepeat down the",
+          "block."
+        ]
+      }
+    },
+    {
+      "id": "438ee723-43ca-53b1-9878-e4e38cc16025",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "You\nWhy so many\nmatching fronts?"
+        ]
+      }
+    },
+    {
+      "id": "d33904e2-54a0-5cee-baa9-14ccb2873d80",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Guide\nCast iron let\nbuilders repeat",
+          "ornamental shapes\nacross whole\nfacades."
+        ]
+      }
+    }
+  ]
+}

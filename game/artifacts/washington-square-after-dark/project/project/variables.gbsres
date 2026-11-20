@@ -1,0 +1,41 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "40",
+      "name": "Level stamps",
+      "symbol": "var_walk_40"
+    },
+    {
+      "id": "41",
+      "name": "Times caught",
+      "symbol": "var_walk_41"
+    },
+    {
+      "id": "42",
+      "name": "Route complete",
+      "symbol": "var_walk_42"
+    },
+    {
+      "id": "43",
+      "name": "Stamp 1 collected",
+      "symbol": "var_walk_43"
+    },
+    {
+      "id": "44",
+      "name": "Stamp 2 collected",
+      "symbol": "var_walk_44"
+    },
+    {
+      "id": "45",
+      "name": "Stamp 3 collected",
+      "symbol": "var_walk_45"
+    },
+    {
+      "id": "46",
+      "name": "Stamp 4 collected",
+      "symbol": "var_walk_46"
+    }
+  ],
+  "constants": []
+}

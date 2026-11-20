@@ -1,0 +1,40 @@
+{
+  "_resourceType": "script",
+  "id": "9bfd1ffe-e151-59cf-85cb-7c9c4556c022",
+  "symbol": "walk_memory_2_8_10_0",
+  "name": "Walk memory 8,10 (1)",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "id": "6fcbf8aa-500d-5cc2-8e63-a3c9813a4675",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Camera\nAlong Prince, tall\nloft windows catch",
+          "the light."
+        ]
+      }
+    },
+    {
+      "id": "ae1a9cc8-75b1-5008-854d-ce58b752a18c",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "You\nAre we back near\nPuck?"
+        ]
+      }
+    },
+    {
+      "id": "15275732-e1b8-5508-901c-1d0e0e42cdd2",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Guide\nAlmost. Broadway\nis ahead and the",
+          "Puck block is a\nlittle east."
+        ]
+      }
+    }
+  ]
+}

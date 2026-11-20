@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "bebaed2b-eb22-49c4-a626-45f873c07cb6",
+  "name": "Walk streets",
+  "symbol": "bg_walk_streets",
+  "tileColors": "",
+  "filename": "walk.png",
+  "width": 60,
+  "height": 54,
+  "imageWidth": 480,
+  "imageHeight": 432,
+  "autoColor": false
+}

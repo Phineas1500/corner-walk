@@ -1,0 +1,40 @@
+{
+  "_resourceType": "script",
+  "id": "3bfefdc0-413b-5370-870e-eb3a53589afd",
+  "symbol": "walk_memory_56_15_0",
+  "name": "Walk memory 56,15 (1)",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "id": "16571a96-dfaf-5961-a499-d1edf7cce82f",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Camera\nHouston opens onto\na long strip of",
+          "green."
+        ]
+      }
+    },
+    {
+      "id": "51319038-b4ca-5d83-ad21-1265715f7cac",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "You\nHow far does the\npark go?"
+        ]
+      }
+    },
+    {
+      "id": "3195f886-199d-55bb-bbd4-78b919607ed6",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Guide\nSara D. Roosevelt\nPark stretches",
+          "from Houston to\nCanal."
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "_resourceType": "script",
+  "id": "8dd5906d-ef54-5b2f-ba1f-a5304589df5a",
+  "symbol": "walk_memory_1_14_8_0",
+  "name": "Walk memory 14,8 (1)",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "id": "bc1b0154-6cec-58fb-9e13-2e881b8ab0e1",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "You\nWhat is this\nbuilding"
+        ]
+      }
+    }
+  ]
+}

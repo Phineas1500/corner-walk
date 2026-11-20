@@ -1,0 +1,40 @@
+{
+  "_resourceType": "script",
+  "id": "730f99b9-5efe-5d04-a8e9-9e3730c3f788",
+  "symbol": "walk_memory_8_13_0",
+  "name": "Walk memory 8,13 (1)",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "id": "ae69fbac-a10b-5542-ad5c-cf6af5f55313",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Camera\nAn old brick wall\nruns along",
+          "Mulberry."
+        ]
+      }
+    },
+    {
+      "id": "53432570-abe8-506c-a506-807c89e1f24c",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "You\nWhat is behind the\nwall?"
+        ]
+      }
+    },
+    {
+      "id": "8e625313-f698-5d8b-a8b2-661cddfba2d3",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Guide\nThe grounds of St.\nPatrick's Old",
+          "Cathedral. Quite a\nchange from\nHouston Street."
+        ]
+      }
+    }
+  ]
+}

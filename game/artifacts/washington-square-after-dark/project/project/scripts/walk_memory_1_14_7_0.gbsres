@@ -1,0 +1,23 @@
+{
+  "_resourceType": "script",
+  "id": "96ed38b1-5668-5c5a-95d8-2e242a4aba03",
+  "symbol": "walk_memory_1_14_7_0",
+  "name": "Walk memory 14,7 (1)",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "id": "f01e5a80-ec59-5752-8aef-82a219e20901",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Radio\nI can make out\nwhat looks like",
+          "\"Diva,\" but the\nsign is sideways\nand too dark to",
+          "read the rest.\nCould you turn the\ncamera so the",
+          "sign's upright?"
+        ]
+      }
+    }
+  ]
+}

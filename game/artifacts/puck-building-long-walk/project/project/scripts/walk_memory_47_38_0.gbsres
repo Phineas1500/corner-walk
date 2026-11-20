@@ -1,0 +1,40 @@
+{
+  "_resourceType": "script",
+  "id": "272ed08a-f76f-5cd8-a2d5-eada6920d552",
+  "symbol": "walk_memory_47_38_0",
+  "name": "Walk memory 47,38 (1)",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "id": "79b10bcf-46bf-5aa8-bb65-25e08888d6d2",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Camera\nA ball rolls to\nthe edge of the",
+          "park fence."
+        ]
+      }
+    },
+    {
+      "id": "5dad5a4b-1f26-51ad-ad4a-33d0bec1a1b7",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "You\nWhat can you play\nhere?"
+        ]
+      }
+    },
+    {
+      "id": "8f64f547-9d96-51c4-bf86-ad446fdacd40",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Guide\nThe park has\nsports fields and",
+          "courts, right in\nthe middle of the\nblocks."
+        ]
+      }
+    }
+  ]
+}

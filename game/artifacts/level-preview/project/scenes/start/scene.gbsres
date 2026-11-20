@@ -1,0 +1,381 @@
+{
+  "_resourceType": "scene",
+  "id": "12f07015-0a42-504a-8d39-3f689e13ad3a",
+  "_index": 0,
+  "type": "TOPDOWN",
+  "name": "Courtyard",
+  "symbol": "scene_walk_0",
+  "x": 0,
+  "y": 0,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "9a598a5f-6aba-5c26-970b-33ca09317c72",
+  "tilesetId": "",
+  "colorModeOverride": "none",
+  "paletteIds": [
+    "default-bg-6"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "id": "867bf96a-bfa9-55cf-8461-1a333401d5a6",
+      "command": "EVENT_ACTOR_SET_COLLISION_BOX",
+      "args": {
+        "actorId": "player",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "width": {
+          "type": "number",
+          "value": 8
+        },
+        "height": {
+          "type": "number",
+          "value": 8
+        }
+      }
+    },
+    {
+      "id": "7e82d243-1ccc-51a9-a458-36e79dddece8",
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "40",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      }
+    },
+    {
+      "id": "b1e7ad38-f015-54cb-9618-32c60d09c1da",
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "43",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      }
+    },
+    {
+      "id": "5517176d-6db0-5877-a71c-629a5b7575af",
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "44",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      }
+    },
+    {
+      "id": "3ae64a0e-ce73-58c9-99d3-5b020fa19882",
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "45",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      }
+    },
+    {
+      "id": "901d9167-327f-5100-95ef-998d40ce11f6",
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "46",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      }
+    },
+    {
+      "id": "b3b122ce-b58e-5cff-a345-714b0b1491da",
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "41",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      }
+    },
+    {
+      "id": "e95efcab-0aa6-526b-bf5b-8aecdf421ded",
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "42",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      }
+    },
+    {
+      "id": "c0ddf17c-5c37-575c-aa7e-2f63641743ac",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "CORNER WALK\nPuck Stamp Rally\nCollect and dodge!",
+          "Collect stamps.\nReach the gate.\nB shows progress.",
+          "Dodge the drone.\nTake the long way\nfor a safer route.",
+          "Stand on a marker.\nA reads a clue."
+        ]
+      }
+    },
+    {
+      "id": "6a617f5d-9aee-5e6b-a5ca-85e1d41de948",
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": false
+      },
+      "children": {
+        "true": [
+          {
+            "id": "c9e84603-d048-5caf-aee9-79d3aae6138b",
+            "command": "EVENT_IF_ACTOR_AT_POSITION",
+            "args": {
+              "actorId": "player",
+              "units": "tiles",
+              "__disableElse": true,
+              "x": {
+                "type": "number",
+                "value": 3
+              },
+              "y": {
+                "type": "number",
+                "value": 2
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "id": "5ba995aa-82a8-5d78-bd80-9f616e66178f",
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "ea8529c6-20c5-5d09-b944-a062d193eef1"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "2d7b4ebc-1010-506e-80b4-c3d22d3d32f1",
+            "command": "EVENT_IF_ACTOR_AT_POSITION",
+            "args": {
+              "actorId": "player",
+              "units": "tiles",
+              "__disableElse": true,
+              "x": {
+                "type": "number",
+                "value": 3
+              },
+              "y": {
+                "type": "number",
+                "value": 3
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "id": "13e3a8a4-9edf-5bf0-afe7-b55ff232ed83",
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "d2c072b0-3329-5b87-b31e-3b19261fc8c3"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "ac7332db-4eaa-5b53-b6ea-49fb68fc540a",
+            "command": "EVENT_IF_ACTOR_AT_POSITION",
+            "args": {
+              "actorId": "player",
+              "units": "tiles",
+              "__disableElse": true,
+              "x": {
+                "type": "number",
+                "value": 4
+              },
+              "y": {
+                "type": "number",
+                "value": 3
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "id": "edb8f01f-745c-56e2-8c97-9ea0833e1622",
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "6fb54ade-b08d-58a4-851a-380f067f0269"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "5ca353b0-2e4e-5e30-b612-92b3b255dbc7",
+            "command": "EVENT_IF_ACTOR_AT_POSITION",
+            "args": {
+              "actorId": "player",
+              "units": "tiles",
+              "__disableElse": true,
+              "x": {
+                "type": "number",
+                "value": 8
+              },
+              "y": {
+                "type": "number",
+                "value": 15
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "id": "3c9a8727-06e9-5226-83eb-b669052a7611",
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "1854cf48-157d-555d-9c02-14a38525240c"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "c3ab0e5e-cd3a-5ff0-854b-7225ae49d3d5",
+            "command": "EVENT_IF_ACTOR_AT_POSITION",
+            "args": {
+              "actorId": "player",
+              "units": "tiles",
+              "__disableElse": true,
+              "x": {
+                "type": "number",
+                "value": 16
+              },
+              "y": {
+                "type": "number",
+                "value": 3
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "id": "f9cb2a98-4f35-5d95-9838-48e6557d6e47",
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "b26223ce-b822-52ba-b9e3-5da49c809585"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "2e203265-15b0-5757-b0f9-289491689c48",
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": false
+      },
+      "children": {
+        "true": [
+          {
+            "id": "375d8680-90a8-56e7-b33f-b17844d4238f",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "Stamps: $40$/3\nCaught: $41$\nCourtyard"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "playerHit1Script": [
+    {
+      "id": "6ba874c5-52cb-5a5c-925a-f52523411656",
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "42"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "id": "c0c15eff-0e5b-53cc-a4fa-f11ea9a2839b",
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "41"
+            }
+          },
+          {
+            "id": "8c69d91b-408c-50d1-8fb4-04e702958e32",
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "crash",
+              "duration": 0.14
+            }
+          },
+          {
+            "id": "ea33af93-bcaf-5f8f-a55a-3085c02732de",
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "player",
+              "x": {
+                "type": "number",
+                "value": 3
+              },
+              "y": {
+                "type": "number",
+                "value": 8
+              },
+              "units": "tiles"
+            }
+          },
+          {
+            "id": "c013a5b5-3f91-5ebe-b214-f729cfb93e3a",
+            "command": "EVENT_CAMERA_SHAKE",
+            "args": {
+              "shakeDirection": "horizontal",
+              "units": "frames",
+              "frames": 12,
+              "magnitude": {
+                "type": "number",
+                "value": 2
+              }
+            }
+          }
+        ],
+        "false": []
+      }
+    }
+  ],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0f29+005+0f!00c+0f2+005+0f!00c+0f2+005+0f!002+0f6+004+0f2+005+0f!002+0f!004+0f!004+0f2+005+0f!002+0f!004+0f!004+0f2+005+0f!002+0f!004+0f!004+0f2+008+0f!004+0f!004+0f2+0012+0f2+005+0f!002+0f!004+0f!004+0f2+005+0f!002+0f6+004+0f2+005+0f!00c+0f2+005+0f!00c+0f2+005+0f!00c+0f2+0012+0f2+0012+0f15+"
+}

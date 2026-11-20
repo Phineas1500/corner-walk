@@ -1,0 +1,235 @@
+{
+  "_resourceType": "scene",
+  "id": "a38b2194-b20d-5fb2-8610-2c6231d1fd00",
+  "type": "TOPDOWN",
+  "name": "Fish Sign",
+  "symbol": "scene_walk_2",
+  "_index": 2,
+  "x": 368,
+  "y": 0,
+  "backgroundId": "6b9043fb-3597-55e8-9a07-c1bfb00da9a7",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "colorModeOverride": "none",
+  "paletteIds": [
+    "walk-night-3"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "collisions": "0f29+00c+0f!005+0f2+00c+0f!005+0f2+0012+0f2+004+0f!007+0f!005+0f2+004+0f!003+0f3+00!0f!005+0f2+004+0f7+00!0f!005+0f2+008+0f3+00!0f!005+0f2+009+0f!002+0f!005+0f2+009+0f!002+0f!005+0f2+009+0f!002+0f!005+0f2+004+0f6+002+0f!005+0f2+004+0f!007+0f!005+0f2+004+0f!007+0f!005+0f2+004+0f!00d+0f2+0012+0f15+",
+  "script": [
+    {
+      "id": "0e3cc9da-aed2-5826-aa67-a1772d5bd07d",
+      "command": "EVENT_ACTOR_SET_COLLISION_BOX",
+      "args": {
+        "actorId": "player",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "width": {
+          "type": "number",
+          "value": 8
+        },
+        "height": {
+          "type": "number",
+          "value": 8
+        }
+      }
+    },
+    {
+      "id": "51070a27-4d25-544f-9e75-19f7cd65be35",
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "40",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      }
+    },
+    {
+      "id": "51b72e98-a439-5b4d-b9cb-778ef7f73217",
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "43",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      }
+    },
+    {
+      "id": "a9ac10ee-a2b7-58ba-9744-450c424a3e74",
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "44",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      }
+    },
+    {
+      "id": "ee8fac43-06e3-5d18-80a9-c4cdf6204f20",
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "45",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      }
+    },
+    {
+      "id": "5cc8c1fd-316f-5bab-bebd-a06b4706b805",
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "46",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      }
+    },
+    {
+      "id": "21358f4c-693d-53db-aa9a-0e3bf3cd4e96",
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": false
+      },
+      "children": {
+        "true": [
+          {
+            "id": "81d1fc1a-5406-5feb-adc2-b7a77e05d5e9",
+            "command": "EVENT_IF_ACTOR_AT_POSITION",
+            "args": {
+              "actorId": "player",
+              "units": "tiles",
+              "__disableElse": true,
+              "x": {
+                "type": "number",
+                "value": 8
+              },
+              "y": {
+                "type": "number",
+                "value": 9
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "id": "b9ddc2b9-6978-5bfc-82cd-8a31df3d4762",
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "0c517ec0-7e7f-56d1-a37d-9b48195efffc"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "1f36f83c-7dee-58d8-a9b0-813676472e06",
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": false
+      },
+      "children": {
+        "true": [
+          {
+            "id": "fe87c3b0-bbfb-503a-9a25-1686095ffe69",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "Stamps: $40$/3\nCaught: $41$\nFish Sign"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "playerHit1Script": [
+    {
+      "id": "8db0cf9b-6f24-5283-8234-b8634783ffd6",
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "42"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "id": "4bdd4c0a-51c1-564a-9c4c-6bad99e43556",
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "41"
+            }
+          },
+          {
+            "id": "3b1cc117-68ea-53d1-83d3-18e387e585e3",
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "crash",
+              "duration": 0.14
+            }
+          },
+          {
+            "id": "ecef71f8-cb77-544b-a3cf-c7f28a0ab98c",
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "player",
+              "x": {
+                "type": "number",
+                "value": 16
+              },
+              "y": {
+                "type": "number",
+                "value": 8
+              },
+              "units": "tiles"
+            }
+          },
+          {
+            "id": "1a9e1048-3d35-5b03-9b39-ef5372391ce1",
+            "command": "EVENT_CAMERA_SHAKE",
+            "args": {
+              "shakeDirection": "horizontal",
+              "units": "frames",
+              "frames": 12,
+              "magnitude": {
+                "type": "number",
+                "value": 2
+              }
+            }
+          }
+        ],
+        "false": []
+      }
+    }
+  ],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

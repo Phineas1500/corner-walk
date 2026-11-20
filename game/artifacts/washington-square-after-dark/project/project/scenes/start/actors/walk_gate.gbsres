@@ -1,0 +1,37 @@
+{
+  "_resourceType": "actor",
+  "id": "472cef33-516d-5ca0-b6c3-fd98cb971cec",
+  "_index": 0,
+  "name": "Gate",
+  "symbol": "actor_walk_0_gate",
+  "prefabId": "",
+  "prefabScriptOverrides": {},
+  "coordinateType": "tiles",
+  "x": 2,
+  "y": 15,
+  "direction": "right",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "7ed72b31-9233-51bb-a8bc-e99576a39852",
+  "paletteId": "",
+  "isPinned": false,
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "script": [],
+  "startScript": [
+    {
+      "id": "6fd4edc2-4752-538b-a2f7-bac38eb24d2c",
+      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+      "args": {
+        "actorId": "472cef33-516d-5ca0-b6c3-fd98cb971cec"
+      }
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

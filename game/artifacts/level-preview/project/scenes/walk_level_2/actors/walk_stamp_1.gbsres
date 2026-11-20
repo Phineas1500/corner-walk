@@ -1,0 +1,37 @@
+{
+  "_resourceType": "actor",
+  "id": "c3e9ca18-be16-50ad-9741-6b1584565ac5",
+  "_index": 2,
+  "name": "Stamp 1",
+  "symbol": "actor_walk_1_stamp_1",
+  "prefabId": "",
+  "prefabScriptOverrides": {},
+  "coordinateType": "tiles",
+  "x": 7,
+  "y": 15,
+  "direction": "right",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "c50a76f7-b641-5bcd-9f77-863f18c6ab0f",
+  "paletteId": "",
+  "isPinned": false,
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "script": [],
+  "startScript": [
+    {
+      "id": "ca431619-ce83-5113-a0ce-10f10317d9f7",
+      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+      "args": {
+        "actorId": "c3e9ca18-be16-50ad-9741-6b1584565ac5"
+      }
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

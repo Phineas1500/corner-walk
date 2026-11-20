@@ -1,0 +1,40 @@
+{
+  "_resourceType": "script",
+  "id": "a7affd69-7eed-5595-9712-3788feed0b50",
+  "symbol": "walk_memory_45_23_0",
+  "name": "Walk memory 45,23 (1)",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "id": "fed82fe6-ad8f-5c65-90b7-ff9feb837b7e",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Camera\nWhite boxes seem\nto slide past each",
+          "other."
+        ]
+      }
+    },
+    {
+      "id": "03c9c037-bbf2-5b3c-80db-b27950cc05ef",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "You\nIs that a\nsculpture?"
+        ]
+      }
+    },
+    {
+      "id": "0b232020-bb95-5075-9c80-32cddc8cc8ba",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Guide\nA museum. From the\nBowery it looks",
+          "like a stack of\ngalleries."
+        ]
+      }
+    }
+  ]
+}

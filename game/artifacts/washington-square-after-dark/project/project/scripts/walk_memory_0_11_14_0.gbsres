@@ -1,0 +1,20 @@
+{
+  "_resourceType": "script",
+  "id": "10fea06e-7b52-542f-88ff-caf18c03bd60",
+  "symbol": "walk_memory_0_11_14_0",
+  "name": "Walk memory 11,14 (1)",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "id": "7dd7752e-7b34-51d3-83f9-91aad6ed172d",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Guide\nSure. Lemme take a\nlook."
+        ]
+      }
+    }
+  ]
+}

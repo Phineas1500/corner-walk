@@ -1,0 +1,40 @@
+{
+  "_resourceType": "script",
+  "id": "79ae5271-0bb0-57da-8ec8-5338f1753a30",
+  "symbol": "walk_memory_1_5_7_0",
+  "name": "Walk memory 5,7 (1)",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "id": "f0669be3-9807-5d71-a2e9-a2c2277f2745",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Camera\nA stone dome rises\nabove Centre",
+          "Street."
+        ]
+      }
+    },
+    {
+      "id": "45cf1dd2-e46a-5b63-8225-7bacb946c569",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "You\nWhat was that\nbuilding?"
+        ]
+      }
+    },
+    {
+      "id": "d6f66c6f-3b0a-5768-a4c8-d0fe9bdcc026",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Guide\nThe city's old\npolice",
+          "headquarters. It\nfills a whole\nblock."
+        ]
+      }
+    }
+  ]
+}

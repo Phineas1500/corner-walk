@@ -1,0 +1,20 @@
+# Walk journals hold a location trace and whatever the microphone heard, so new
+# exports stay out of git unless they are added here on purpose.
+/walks/*
+!/walks/walk-2026-11-20T012334Z-20686.jsonl
+!/walks/walk-2026-11-20T014459Z-83719.jsonl
+
+# Received walks, with their device install logs
+/game/artifacts/walks/
+/game/artifacts/.recording-access/
+
+# Flash dumps can contain saved Wi-Fi and pairing settings
+/backups/
+
+# Build output and local state
+/game/build/
+/game/save-states/
+*.gbc.ram
+__pycache__/
+.pio/
+.DS_Store

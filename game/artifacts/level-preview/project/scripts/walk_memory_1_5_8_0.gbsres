@@ -1,0 +1,40 @@
+{
+  "_resourceType": "script",
+  "id": "53eaf85d-9845-5c2c-a0b4-48e6207d7c05",
+  "symbol": "walk_memory_1_5_8_0",
+  "name": "Walk memory 5,8 (1)",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "id": "e16cfc90-d643-5d2b-917a-227faf5350c0",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Camera\nA museum sign\nhangs over the",
+          "corner."
+        ]
+      }
+    },
+    {
+      "id": "8af1a254-a75e-5630-87dd-231f98c99c98",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "You\nWhich museum is\nthis?"
+        ]
+      }
+    },
+    {
+      "id": "e7e266a1-ba27-5b85-ab5d-3d66b284358b",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Guide\nThe Italian\nAmerican Museum,",
+          "at the edge of\nLittle Italy."
+        ]
+      }
+    }
+  ]
+}

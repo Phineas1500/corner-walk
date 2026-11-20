@@ -1,0 +1,39 @@
+{
+  "_resourceType": "script",
+  "id": "a70a662a-22d7-56e5-8779-d4a5c7cbfcfd",
+  "symbol": "walk_memory_34_12_0",
+  "name": "Walk memory 34,12 (1)",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "id": "ca57ef29-a7c1-539e-b93d-674f86723e5e",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Camera\nA canopy juts over\nthe library door."
+        ]
+      }
+    },
+    {
+      "id": "79ef9df9-5b3b-5491-b0d3-4c7d7052f115",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "You\nWhat used to be\nhere?"
+        ]
+      }
+    },
+    {
+      "id": "51a9b419-eab1-55b9-a1bb-098a8bf77472",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Guide\nA chocolate\nfactory. Now you",
+          "go in for books."
+        ]
+      }
+    }
+  ]
+}

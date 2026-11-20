@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "6b9043fb-3597-55e8-9a07-c1bfb00da9a7",
+  "name": "Fish Sign",
+  "symbol": "bg_walk_2",
+  "tileColors": "",
+  "filename": "walk_chapter_3.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "autoColor": false
+}

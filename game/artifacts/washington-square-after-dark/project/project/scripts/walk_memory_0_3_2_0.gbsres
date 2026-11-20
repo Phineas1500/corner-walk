@@ -1,0 +1,22 @@
+{
+  "_resourceType": "script",
+  "id": "ea8529c6-20c5-5d09-b944-a062d193eef1",
+  "symbol": "walk_memory_0_3_2_0",
+  "name": "Walk memory 3,2 (1)",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "id": "9c56f35b-dcff-53de-9c66-013244db5395",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Radio\nSince you're at\nWashington Square",
+          "Park, the arch you\nshowed is the\nWashington Square",
+          "Arch."
+        ]
+      }
+    }
+  ]
+}

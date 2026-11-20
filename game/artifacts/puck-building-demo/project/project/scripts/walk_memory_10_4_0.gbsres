@@ -1,0 +1,41 @@
+{
+  "_resourceType": "script",
+  "id": "ea56161e-876e-5285-8287-2bf28ed3faa3",
+  "symbol": "walk_memory_10_4_0",
+  "name": "Walk memory 10,4 (1)",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "id": "e891b601-47cf-57da-b75a-1d5ea97d10f6",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Camera\nSubway stairs cut\ninto Houston",
+          "Street."
+        ]
+      }
+    },
+    {
+      "id": "fd074baf-1f80-5322-a11a-a5e07652339d",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "You\nWhich station is\nthis?"
+        ]
+      }
+    },
+    {
+      "id": "398131c8-c3fa-5e29-a90d-5aab7ac9006e",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Guide\nBroadway-\nLafayette. The",
+          "stairway looks\nlike a shortcut\nunder the whole",
+          "city."
+        ]
+      }
+    }
+  ]
+}

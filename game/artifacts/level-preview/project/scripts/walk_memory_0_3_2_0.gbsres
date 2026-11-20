@@ -1,0 +1,40 @@
+{
+  "_resourceType": "script",
+  "id": "ea8529c6-20c5-5d09-b944-a062d193eef1",
+  "symbol": "walk_memory_0_3_2_0",
+  "name": "Walk memory 3,2 (1)",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "id": "9c56f35b-dcff-53de-9c66-013244db5395",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Camera\nGold Puck peers\ndown from the",
+          "brick."
+        ]
+      }
+    },
+    {
+      "id": "7650bc19-d6d7-51b6-b844-5a05a87872b5",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "You\nWhy the jester?"
+        ]
+      }
+    },
+    {
+      "id": "eee6533c-b658-5af7-b001-36e281656c24",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Guide\nPuck magazine once\nwent to press in",
+          "this building."
+        ]
+      }
+    }
+  ]
+}

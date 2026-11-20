@@ -1,0 +1,94 @@
+{
+  "_resourceType": "actor",
+  "id": "8194b44d-8bff-5226-bd04-5e5e7486fab3",
+  "_index": 1,
+  "name": "Patrol",
+  "symbol": "actor_walk_2_patrol",
+  "prefabId": "",
+  "prefabScriptOverrides": {},
+  "coordinateType": "tiles",
+  "x": 5,
+  "y": 4,
+  "direction": "right",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "2c6dcb5b-c907-5146-8773-4ba0a1112e40",
+  "paletteId": "",
+  "isPinned": false,
+  "moveSpeed": 0.5,
+  "animSpeed": 15,
+  "persistent": false,
+  "collisionGroup": "1",
+  "collisionExtraFlags": [],
+  "script": [],
+  "startScript": [],
+  "updateScript": [
+    {
+      "id": "9391c3e6-e674-5af9-bdae-bde646d18eac",
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "8194b44d-8bff-5226-bd04-5e5e7486fab3",
+        "x": {
+          "type": "number",
+          "value": 13
+        },
+        "y": {
+          "type": "number",
+          "value": 4
+        },
+        "units": "tiles",
+        "collideWith": [
+          "walls"
+        ],
+        "moveType": "horizontal",
+        "lockDirection": []
+      }
+    },
+    {
+      "id": "63214a00-747d-54f9-a962-99d94cdc95a8",
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 0.3
+        },
+        "units": "time"
+      }
+    },
+    {
+      "id": "0680fbdd-f0c1-54ac-8dd6-686df8972e31",
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "8194b44d-8bff-5226-bd04-5e5e7486fab3",
+        "x": {
+          "type": "number",
+          "value": 5
+        },
+        "y": {
+          "type": "number",
+          "value": 4
+        },
+        "units": "tiles",
+        "collideWith": [
+          "walls"
+        ],
+        "moveType": "horizontal",
+        "lockDirection": []
+      }
+    },
+    {
+      "id": "783ac330-5b62-56d1-b023-1de8dddc0aa2",
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 0.3
+        },
+        "units": "time"
+      }
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

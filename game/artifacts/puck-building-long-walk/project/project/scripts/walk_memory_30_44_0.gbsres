@@ -1,0 +1,40 @@
+{
+  "_resourceType": "script",
+  "id": "bda34103-8bee-5505-bc56-044e424b13fb",
+  "symbol": "walk_memory_30_44_0",
+  "name": "Walk memory 30,44 (1)",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "id": "aabb1183-25e7-55c1-8803-f6ba87aa6d07",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Camera\nSteam clouds a\nGrand Street shop",
+          "window."
+        ]
+      }
+    },
+    {
+      "id": "ba9cb403-04da-58b2-ac4f-d12546513d51",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "You\nWhat's in that\nstack?"
+        ]
+      }
+    },
+    {
+      "id": "6fa93451-3fb8-56af-9c1a-298b2f32610d",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Guide\nBamboo steamers.\nLet's see what's",
+          "farther along\nGrand."
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{"type":"fix","time":"2026-11-19T18:00:00Z","lat":40.73000,"lon":-73.99000,"speed_mps":1.4}
+{"type":"fix","time":"2026-11-19T18:00:28Z","lat":40.73000,"lon":-73.98955,"speed_mps":1.4}
+{"type":"scene","session_ms":38000,"time":"2026-11-19T18:00:28Z","lat":40.73000,"lon":-73.98955,"text":"A blue heron is painted on the wall."}
+{"type":"fix","time":"2026-11-19T18:00:55Z","lat":40.73000,"lon":-73.98910,"speed_mps":1.4}
+{"type":"chat","session_ms":38000,"session_time":"2026-11-19T18:00:28Z","start_ms":27000,"end_ms":28000,"speaker":"user","text":"Where do herons nest?"}
+{"type":"chat","session_ms":38000,"session_time":"2026-11-19T18:00:28Z","start_ms":28500,"end_ms":31000,"speaker":"assistant","text":"Often in tall trees near water."}
+{"type":"fix","time":"2026-11-19T18:01:17Z","lat":40.73028,"lon":-73.98910,"speed_mps":1.4}
+{"type":"fix","time":"2026-11-19T18:01:39Z","lat":40.73055,"lon":-73.98910,"speed_mps":1.4}

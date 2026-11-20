@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "b21de183-462a-5546-9f8c-c044cb29ad58",
+  "name": "Night Streets",
+  "symbol": "bg_walk_1",
+  "tileColors": "",
+  "filename": "walk_chapter_2.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "autoColor": false
+}

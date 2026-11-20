@@ -1,0 +1,24 @@
+{
+  "_resourceType": "script",
+  "id": "d2c072b0-3329-5b87-b31e-3b19261fc8c3",
+  "symbol": "walk_memory_0_3_3_0",
+  "name": "Walk memory 3,3 (1)",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "id": "d86e82c8-a82d-5837-838a-e8a5ea619de3",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Guide\nRight now I just\nsee a dark,",
+          "reflective curved\nsurface with some\nmetal. I can't",
+          "really tell where\nyou are from this\nyet. Could you",
+          "point the little\ncamera on the\nscreen side",
+          "outward towards\nsomething around\nyou?"
+        ]
+      }
+    }
+  ]
+}

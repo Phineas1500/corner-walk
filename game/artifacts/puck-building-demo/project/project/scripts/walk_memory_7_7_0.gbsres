@@ -1,0 +1,40 @@
+{
+  "_resourceType": "script",
+  "id": "33e299ac-b7bf-57c3-befe-d8f96b1054d6",
+  "symbol": "walk_memory_7_7_0",
+  "name": "Walk memory 7,7 (1)",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "id": "5ccaad0e-9b82-52b8-870d-f00f69479ac3",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Camera\nGold Puck above\nthe Lafayette",
+          "door."
+        ]
+      }
+    },
+    {
+      "id": "2d9eafd4-c55e-5178-a087-f66694485af6",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "You\nWho is up there?"
+        ]
+      }
+    },
+    {
+      "id": "e0131d1b-11c8-54e1-b2d5-8a45ec34c491",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Guide\nPuck, the jester\nfrom Shakespeare.",
+          "A humor magazine\ntook his name."
+        ]
+      }
+    }
+  ]
+}

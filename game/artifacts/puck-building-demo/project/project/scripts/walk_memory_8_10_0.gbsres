@@ -1,0 +1,39 @@
+{
+  "_resourceType": "script",
+  "id": "af41f273-3169-5b4e-b262-39fc4ff6ba97",
+  "symbol": "walk_memory_8_10_0",
+  "name": "Walk memory 8,10 (1)",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "id": "77fc6ead-bcbf-5bf5-9c54-4a7544c62ec1",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Camera\nAn angled canopy\nmarks the library."
+        ]
+      }
+    },
+    {
+      "id": "0bd03b6b-9389-5309-96f7-2e6d2df9e2fa",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "You\nWas this always a\nlibrary?"
+        ]
+      }
+    },
+    {
+      "id": "860a5be7-fc27-50cb-aa60-e95a0bd69c4c",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Guide\nIt was a chocolate\nfactory. Now it's",
+          "the Mulberry\nStreet Library."
+        ]
+      }
+    }
+  ]
+}

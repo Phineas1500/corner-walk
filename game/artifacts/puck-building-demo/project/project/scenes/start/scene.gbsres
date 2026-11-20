@@ -1,0 +1,188 @@
+{
+  "_resourceType": "scene",
+  "id": "12f07015-0a42-504a-8d39-3f689e13ad3a",
+  "_index": 0,
+  "type": "TOPDOWN",
+  "name": "Puck and Pages",
+  "symbol": "scene_start",
+  "x": 0,
+  "y": 0,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "bebaed2b-eb22-49c4-a626-45f873c07cb6",
+  "tilesetId": "",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "id": "3288b36c-7539-4f42-953e-64193b21ce14",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "CORNER WALK\nPuck and Pages\nSimulated walk",
+          "Stand on a camera\nor chat bubble.\nPress A to read."
+        ]
+      }
+    },
+    {
+      "id": "9b33652a-4dd6-5ef7-85ed-ec91b3d01520",
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": false
+      },
+      "children": {
+        "true": [
+          {
+            "id": "7884b13d-647d-5cbf-b061-0d12b67b8132",
+            "command": "EVENT_IF_ACTOR_AT_POSITION",
+            "args": {
+              "actorId": "player",
+              "units": "tiles",
+              "__disableElse": true,
+              "x": {
+                "type": "number",
+                "value": 7
+              },
+              "y": {
+                "type": "number",
+                "value": 7
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "id": "667d2d07-4175-5364-83c2-ec9cc8ba642c",
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "33e299ac-b7bf-57c3-befe-d8f96b1054d6"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "7ed34a4c-47f5-50cd-9ae7-992895d87537",
+            "command": "EVENT_IF_ACTOR_AT_POSITION",
+            "args": {
+              "actorId": "player",
+              "units": "tiles",
+              "__disableElse": true,
+              "x": {
+                "type": "number",
+                "value": 8
+              },
+              "y": {
+                "type": "number",
+                "value": 10
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "id": "5af3f699-9451-5126-a95c-215d57a9bf56",
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "af41f273-3169-5b4e-b262-39fc4ff6ba97"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "e15f93a9-6f36-574b-b238-6cded7f642fa",
+            "command": "EVENT_IF_ACTOR_AT_POSITION",
+            "args": {
+              "actorId": "player",
+              "units": "tiles",
+              "__disableElse": true,
+              "x": {
+                "type": "number",
+                "value": 8
+              },
+              "y": {
+                "type": "number",
+                "value": 13
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "id": "98bfb248-ac4b-5222-9840-839ba84a9547",
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "730f99b9-5efe-5d04-a8e9-9e3730c3f788"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "ae7b4548-8c01-57e5-9de3-277ca861a35c",
+            "command": "EVENT_IF_ACTOR_AT_POSITION",
+            "args": {
+              "actorId": "player",
+              "units": "tiles",
+              "__disableElse": true,
+              "x": {
+                "type": "number",
+                "value": 10
+              },
+              "y": {
+                "type": "number",
+                "value": 4
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "id": "daf175f7-abd2-55dd-8c82-0a228591456f",
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "ea56161e-876e-5285-8287-2bf28ed3faa3"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "d69e17a6-c4cd-548f-927b-32b2997f4415",
+            "command": "EVENT_IF_ACTOR_AT_POSITION",
+            "args": {
+              "actorId": "player",
+              "units": "tiles",
+              "__disableElse": true,
+              "x": {
+                "type": "number",
+                "value": 12
+              },
+              "y": {
+                "type": "number",
+                "value": 4
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "id": "f4c701ae-30ab-5224-a189-60d233fec295",
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "7e03ab9c-93ac-5a68-ab5b-ccb3268a8cb9"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0f44+007+0fc+008+0fc+008+0fb+008+0fb+009+0fb+009+0fb+009+0fd+006+0fe+006+0fe+006+0fe+005+0ff+005+0ff+004+0f31+"
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "9a598a5f-6aba-5c26-970b-33ca09317c72",
+  "name": "Washington Sq",
+  "symbol": "bg_walk_0",
+  "tileColors": "",
+  "filename": "walk_chapter_1.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "autoColor": false
+}

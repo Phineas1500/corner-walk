@@ -1,0 +1,23 @@
+{
+  "_resourceType": "trigger",
+  "id": "71592daa-713a-5886-bcd2-c03b17c38b2f",
+  "_index": 0,
+  "symbol": "trigger_finish_flag",
+  "prefabId": "",
+  "name": "Finish flag",
+  "x": 8,
+  "y": 14,
+  "width": 1,
+  "height": 1,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "id": "e52bb4f2-aa4f-41d1-a0d5-f8066429d88c",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "End of the walk\nWalk: 224 meters."
+      }
+    }
+  ],
+  "leaveScript": []
+}

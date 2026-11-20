@@ -1,0 +1,39 @@
+{
+  "_resourceType": "script",
+  "id": "fd5fd5b5-6bac-52c8-9afc-118ee04c9dc1",
+  "symbol": "walk_memory_40_9_0",
+  "name": "Walk memory 40,9 (1)",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "id": "f3849bb0-80ee-53ec-839d-fb5715679001",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Camera\nA green street\nsign reads Mott."
+        ]
+      }
+    },
+    {
+      "id": "f1a723a4-fa57-57e7-ae13-312fec70676e",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "You\nWhich way is the\nBowery?"
+        ]
+      }
+    },
+    {
+      "id": "58119234-3e47-5a6e-8764-0f28728d9391",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Guide\nKeep east along\nHouston. We'll",
+          "turn at the park."
+        ]
+      }
+    }
+  ]
+}

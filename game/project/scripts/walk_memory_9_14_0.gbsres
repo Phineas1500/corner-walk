@@ -1,0 +1,21 @@
+{
+  "_resourceType": "script",
+  "id": "8eff5c63-e63c-5466-910f-6cff2a74a4ac",
+  "symbol": "walk_memory_9_14_0",
+  "name": "Walk memory 9,14 (1)",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "id": "61cbb83e-ec8b-57be-a5cf-905cb6ab17a1",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Camera\nA blue heron is\npainted on the",
+          "wall."
+        ]
+      }
+    }
+  ]
+}

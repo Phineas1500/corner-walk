@@ -1,0 +1,40 @@
+{
+  "_resourceType": "script",
+  "id": "71e8fc46-a0dc-52d0-98c3-ef74693a0453",
+  "symbol": "walk_memory_2_16_14_0",
+  "name": "Walk memory 16,14 (1)",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "id": "ebecf21b-ca71-545b-9130-7b912b6ff28a",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Camera\nA fire escape\nmakes a ladder of",
+          "shadows."
+        ]
+      }
+    },
+    {
+      "id": "8837e6ef-b90b-5281-b13e-283bbe961d26",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "You\nCan we follow this\nstreet?"
+        ]
+      }
+    },
+    {
+      "id": "da706065-8807-5017-a92e-b69f83361e3b",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Guide\nYes. One more\nblock to Prince,",
+          "then turn toward\nBroadway."
+        ]
+      }
+    }
+  ]
+}

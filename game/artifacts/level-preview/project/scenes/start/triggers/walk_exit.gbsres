@@ -1,0 +1,65 @@
+{
+  "_resourceType": "trigger",
+  "id": "79f35305-3411-5ead-8569-2319e7a827f6",
+  "_index": 3,
+  "symbol": "trigger_walk_0_exit",
+  "prefabId": "",
+  "prefabScriptOverrides": {},
+  "name": "Exit",
+  "x": 17,
+  "y": 15,
+  "width": 1,
+  "height": 1,
+  "script": [
+    {
+      "id": "9aaa5755-cb2e-5d6a-a82e-b3989b293a52",
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "40"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 3
+          }
+        },
+        "__disableElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "id": "d634bf70-a6be-532f-99a9-ec28f142bc4e",
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "9e0e6e7b-d13c-5992-9cc8-a20b19a7cac8",
+              "x": {
+                "type": "number",
+                "value": 16
+              },
+              "y": {
+                "type": "number",
+                "value": 15
+              },
+              "units": "tiles",
+              "direction": "down",
+              "fadeSpeed": "2"
+            }
+          }
+        ],
+        "false": [
+          {
+            "id": "19152a28-06d7-5a07-b7ee-58b239141c77",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "Gate locked\nStamps: $40$/3\nFind them all."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "leaveScript": []
+}

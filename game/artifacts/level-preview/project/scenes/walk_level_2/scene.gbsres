@@ -1,0 +1,319 @@
+{
+  "_resourceType": "scene",
+  "id": "9e0e6e7b-d13c-5992-9cc8-a20b19a7cac8",
+  "type": "TOPDOWN",
+  "name": "Side streets",
+  "symbol": "scene_walk_1",
+  "_index": 1,
+  "x": 184,
+  "y": 0,
+  "backgroundId": "b21de183-462a-5546-9f8c-c044cb29ad58",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "colorModeOverride": "none",
+  "paletteIds": [
+    "default-bg-1"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "collisions": "0f29+0012+0f2+009+0f5+004+0f2+009+0f!003+0f!004+0f2+004+0f6+003+0f!004+0f2+009+0f!008+0f2+009+0f!003+0f!004+0f2+009+0f!003+0f!004+0f2+009+0f!003+0f!004+0f2+009+0f!003+0f!004+0f2+009+0f!003+0f!004+0f2+0012+0f2+005+0f!00!0f3+003+0f!004+0f2+005+0f!007+0f!004+0f2+005+0f!007+0f!004+0f2+0012+0f15+",
+  "script": [
+    {
+      "id": "2ec94534-bb4f-58a1-a918-c1df8304e945",
+      "command": "EVENT_ACTOR_SET_COLLISION_BOX",
+      "args": {
+        "actorId": "player",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "width": {
+          "type": "number",
+          "value": 8
+        },
+        "height": {
+          "type": "number",
+          "value": 8
+        }
+      }
+    },
+    {
+      "id": "58f51a8b-5996-5d1d-9234-21d95b463bb4",
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "40",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      }
+    },
+    {
+      "id": "aae5254a-004b-5bfd-a730-76244d2de752",
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "43",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      }
+    },
+    {
+      "id": "2ff312bb-f2a5-50e3-91fe-329204cf6ffb",
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "44",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      }
+    },
+    {
+      "id": "50d8e6ec-9c8b-5014-af20-05eee80bf6aa",
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "45",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      }
+    },
+    {
+      "id": "338a9603-2db6-5dda-8e96-9bda22c5e7c9",
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "46",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      }
+    },
+    {
+      "id": "9b6b0682-e8d8-55fd-b6ce-456fe68caa01",
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": false
+      },
+      "children": {
+        "true": [
+          {
+            "id": "de81ad49-f499-54c6-bcb3-2a73a04e0f1b",
+            "command": "EVENT_IF_ACTOR_AT_POSITION",
+            "args": {
+              "actorId": "player",
+              "units": "tiles",
+              "__disableElse": true,
+              "x": {
+                "type": "number",
+                "value": 5
+              },
+              "y": {
+                "type": "number",
+                "value": 7
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "id": "ba5a3163-9f04-591f-8263-df09d546f76c",
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "79ae5271-0bb0-57da-8ec8-5338f1753a30"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "57076066-d70f-53ac-a045-8797c9e0e905",
+            "command": "EVENT_IF_ACTOR_AT_POSITION",
+            "args": {
+              "actorId": "player",
+              "units": "tiles",
+              "__disableElse": true,
+              "x": {
+                "type": "number",
+                "value": 5
+              },
+              "y": {
+                "type": "number",
+                "value": 8
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "id": "a366144d-0b36-59bc-9259-9acd3f9d5e23",
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "53eaf85d-9845-5c2c-a0b4-48e6207d7c05"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "89885620-9d30-5110-a05f-597e67196d62",
+            "command": "EVENT_IF_ACTOR_AT_POSITION",
+            "args": {
+              "actorId": "player",
+              "units": "tiles",
+              "__disableElse": true,
+              "x": {
+                "type": "number",
+                "value": 7
+              },
+              "y": {
+                "type": "number",
+                "value": 15
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "id": "07caac1a-06bd-536a-b769-de1825b2a1b3",
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "dce1adfe-0f34-5bdb-86b5-975a890e4547"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "3f78e3ed-de60-5afe-bf45-da138df7a57b",
+            "command": "EVENT_IF_ACTOR_AT_POSITION",
+            "args": {
+              "actorId": "player",
+              "units": "tiles",
+              "__disableElse": true,
+              "x": {
+                "type": "number",
+                "value": 16
+              },
+              "y": {
+                "type": "number",
+                "value": 3
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "id": "bd942799-becb-5f52-b312-6861f2966fc7",
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "d798c881-ad72-5498-bde2-576159e76230"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "2fb5dd11-dbe3-57f9-b4a0-ed57dbfd65e4",
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": false
+      },
+      "children": {
+        "true": [
+          {
+            "id": "d0d82b80-a0a2-5d91-97ee-14f8a611c1c7",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "Stamps: $40$/3\nCaught: $41$\nSide streets"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "playerHit1Script": [
+    {
+      "id": "1523c620-daf9-53fc-b438-a7e119233435",
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "42"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "id": "f3f6bff3-1086-5d5f-b3e3-1c71f6b3524c",
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "41"
+            }
+          },
+          {
+            "id": "a9a618cf-d7d3-5ac6-af8f-0f1adca58db3",
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "crash",
+              "duration": 0.14
+            }
+          },
+          {
+            "id": "01ff9f8a-72a4-557e-975f-cd893acedc23",
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "player",
+              "x": {
+                "type": "number",
+                "value": 16
+              },
+              "y": {
+                "type": "number",
+                "value": 15
+              },
+              "units": "tiles"
+            }
+          },
+          {
+            "id": "3c22455d-4af3-5d17-a98c-386f13401963",
+            "command": "EVENT_CAMERA_SHAKE",
+            "args": {
+              "shakeDirection": "horizontal",
+              "units": "frames",
+              "frames": 12,
+              "magnitude": {
+                "type": "number",
+                "value": 2
+              }
+            }
+          }
+        ],
+        "false": []
+      }
+    }
+  ],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

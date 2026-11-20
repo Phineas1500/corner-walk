@@ -1,0 +1,116 @@
+{
+  "_resourceType": "sprite",
+  "id": "7ed72b31-9233-51bb-a8bc-e99576a39852",
+  "name": "Gate",
+  "symbol": "sprite_walk_gate",
+  "filename": "walk_gate.png",
+  "numTiles": 1,
+  "width": 16,
+  "height": 16,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 8,
+  "boundsHeight": 8,
+  "animSpeed": 15,
+  "checksum": "fe6ff7b09aeef1eb4e96201b5e8d5d7f6593ea13",
+  "states": [
+    {
+      "id": "69daad94-c0c1-5d76-ab62-48b8c2a5d63c",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "3f1378f3-4511-5076-b65d-a723c877aae2",
+          "frames": [
+            {
+              "id": "33472a5b-6c86-5170-aca7-2eab3dc65348",
+              "tiles": [
+                {
+                  "id": "2fb31a73-63d6-5ed5-bf87-6207bd7073ab",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "484f9d07-3d80-59f2-92e2-1e3f66771c1f",
+          "frames": [
+            {
+              "id": "21c5d1ce-c175-5852-8445-7eac88836fc9",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "4cb4c6ab-a5aa-56e1-bd5b-9af93e3a3bc3",
+          "frames": [
+            {
+              "id": "e1f2255f-b3ef-5a65-a6ca-810a0512d9af",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5e5115ec-e17b-5b95-a8ed-6f48e3442df1",
+          "frames": [
+            {
+              "id": "8acc082b-d3f8-5812-91bb-89013dc96f0d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9a3dcf30-03fd-5d59-bdc2-fc3e7d62dd5d",
+          "frames": [
+            {
+              "id": "d6196e3b-5bc3-5074-bbe5-5148f9fc2dd5",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3fef5d29-39a9-56cf-b4f2-4d2cb0f2116a",
+          "frames": [
+            {
+              "id": "c473f3bb-ed43-58c2-8aec-9d480ed382e9",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8b8cf886-c6d3-5da6-baef-7271e2494ce0",
+          "frames": [
+            {
+              "id": "294b6dc7-8e09-5be3-ae56-debf4d3d4172",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e47733d0-804d-5f22-8b92-922552e51e0e",
+          "frames": [
+            {
+              "id": "56e5ed7d-ba91-5a98-91e3-ea03a9390cd7",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

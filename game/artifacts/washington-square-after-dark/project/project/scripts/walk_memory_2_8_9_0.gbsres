@@ -1,0 +1,22 @@
+{
+  "_resourceType": "script",
+  "id": "0c517ec0-7e7f-56d1-a37d-9b48195efffc",
+  "symbol": "walk_memory_2_8_9_0",
+  "name": "Walk memory 8,9 (1)",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "id": "22c552ab-e2da-521c-b7f8-d5ffcf9adad9",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Radio\nI can clearly see\nthe word \"Ceviche\"",
+          "next to a fish\nillustration, but\nthe rest is still",
+          "upside down from\nthis angle."
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "_resourceType": "script",
+  "id": "7e03ab9c-93ac-5a68-ab5b-ccb3268a8cb9",
+  "symbol": "walk_memory_12_4_0",
+  "name": "Walk memory 12,4 (1)",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "id": "c978f2b2-4d49-5315-856f-93ad0e8c4ecf",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Camera\nAnother gold Puck\nshines over",
+          "Mulberry."
+        ]
+      }
+    },
+    {
+      "id": "f001aaf9-4881-5c5a-8dcf-6d665b8b9703",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "You\nThere are two of\nhim?"
+        ]
+      }
+    },
+    {
+      "id": "bf34b395-f906-5bb4-ae13-91b923885488",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Guide\nTwo. One at each\nend of the",
+          "building. The\nsecond feels like\na printer's little",
+          "joke."
+        ]
+      }
+    }
+  ]
+}

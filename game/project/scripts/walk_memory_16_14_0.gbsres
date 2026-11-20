@@ -1,0 +1,29 @@
+{
+  "_resourceType": "script",
+  "id": "282cc584-c125-5182-9ad2-033b2fd456b2",
+  "symbol": "walk_memory_16_14_0",
+  "name": "Walk memory 16,14 (1)",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "id": "58b778e3-064d-57ae-86a9-e6029cabd59f",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "You\nWhere do herons\nnest?"
+        ]
+      }
+    },
+    {
+      "id": "d10497b5-e99e-5f47-8ca7-59665fb66add",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Guide\nOften in tall\ntrees near water."
+        ]
+      }
+    }
+  ]
+}

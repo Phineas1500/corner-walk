@@ -1,0 +1,21 @@
+{
+  "_resourceType": "script",
+  "id": "3c6b3326-33b7-5945-91eb-4b89fbfcd8cc",
+  "symbol": "walk_memory_0_11_15_0",
+  "name": "Walk memory 11,15 (1)",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "id": "ca9c1bf4-80d4-5a01-9782-fb4012596c71",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "You\nHey Codex, can you\nsee where I am",
+          "right now"
+        ]
+      }
+    }
+  ]
+}

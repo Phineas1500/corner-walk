@@ -1,0 +1,104 @@
+{
+  "_resourceType": "scene",
+  "id": "12f07015-0a42-504a-8d39-3f689e13ad3a",
+  "_index": 0,
+  "type": "TOPDOWN",
+  "name": "Sample walk",
+  "symbol": "scene_start",
+  "x": 0,
+  "y": 0,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "bebaed2b-eb22-49c4-a626-45f873c07cb6",
+  "tilesetId": "",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "id": "3288b36c-7539-4f42-953e-64193b21ce14",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "CORNER WALK\nSample walk\nFollow the flag!",
+          "Stand on a camera\nor chat bubble.\nPress A to read."
+        ]
+      }
+    },
+    {
+      "id": "9b33652a-4dd6-5ef7-85ed-ec91b3d01520",
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": false
+      },
+      "children": {
+        "true": [
+          {
+            "id": "eba75e92-4048-51f6-93e5-e5222acbd10e",
+            "command": "EVENT_IF_ACTOR_AT_POSITION",
+            "args": {
+              "actorId": "player",
+              "units": "tiles",
+              "__disableElse": true,
+              "x": {
+                "type": "number",
+                "value": 9
+              },
+              "y": {
+                "type": "number",
+                "value": 14
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "id": "06630e25-c8d4-5c66-bfb8-6ca247f46925",
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "8eff5c63-e63c-5466-910f-6cff2a74a4ac"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "9211e4d4-2e09-53d4-a687-db08237dcf95",
+            "command": "EVENT_IF_ACTOR_AT_POSITION",
+            "args": {
+              "actorId": "player",
+              "units": "tiles",
+              "__disableElse": true,
+              "x": {
+                "type": "number",
+                "value": 16
+              },
+              "y": {
+                "type": "number",
+                "value": 14
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "id": "3b25ca0b-e1ed-524b-aa00-0b2ff7109dbb",
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "282cc584-c125-5182-9ad2-033b2fd456b2"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0f4b+004+0f10+004+0f10+004+0f10+004+0f10+004+0f10+004+0f10+004+0f10+004+0f10+004+0f10+004+0f2+0012+0f2+0012+0f2+0012+0f29+"
+}
